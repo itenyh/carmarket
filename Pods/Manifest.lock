@@ -1,0 +1,218 @@
+PODS:
+  - AFNetworking (1.3.4)
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - cdebug (0.1.1)
+  - FMDB (2.4):
+    - FMDB/standard (= 2.4)
+  - FMDB/common (2.4)
+  - FMDB/standard (2.4):
+    - FMDB/common
+  - FoundationExtension/FoundationExtension (0.60):
+    - cdebug (~> 0.1)
+  - FoundationExtension/UIKitExtension (0.60):
+    - cdebug (~> 0.1)
+    - FoundationExtension/FoundationExtension
+  - GIKPopoverBackgroundView/Core (0.0.1)
+  - IQKeyboardManager (3.2.1.0)
+  - JBChartView (2.7.4)
+  - LBBlurredImage (0.2.0)
+  - MBProgressHUD (0.9)
+  - Reachability (3.2)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core (= 3.7.1)
+  - SDWebImage/Core (3.7.1)
+  - SevenSwitch (1.3.0)
+  - UI7Kit (0.9.20):
+    - UI7Kit/All (= 0.9.20)
+  - UI7Kit/All (0.9.20):
+    - UI7Kit/UI7ActionSheet
+    - UI7Kit/UI7ActivityViewController
+    - UI7Kit/UI7AlertView
+    - UI7Kit/UI7BarButtonItem
+    - UI7Kit/UI7Button
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7Font
+    - UI7Kit/UI7NavigationBar
+    - UI7Kit/UI7NavigationController
+    - UI7Kit/UI7PickerView
+    - UI7Kit/UI7PopoverController
+    - UI7Kit/UI7ProgressView
+    - UI7Kit/UI7SearchBar
+    - UI7Kit/UI7SegmentedControl
+    - UI7Kit/UI7Slider
+    - UI7Kit/UI7Stepper
+    - UI7Kit/UI7Switch/SevenSwitch
+    - UI7Kit/UI7TabBar
+    - UI7Kit/UI7TabBarController
+    - UI7Kit/UI7TabBarItem
+    - UI7Kit/UI7TableView
+    - UI7Kit/UI7TableViewCell
+    - UI7Kit/UI7TextField
+    - UI7Kit/UI7Toolbar
+    - UI7Kit/UI7View
+    - UI7Kit/UI7ViewController
+    - UI7Kit/UI7Window
+  - UI7Kit/Core (0.9.20):
+    - cdebug
+    - UI7Kit/UI7Color
+  - UI7Kit/UI7ActionSheet (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7Font
+  - UI7Kit/UI7ActivityViewController (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7Font
+  - UI7Kit/UI7AlertView (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7Button
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7Font
+  - UI7Kit/UI7BarButtonItem (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7Font
+    - UIKitResources/UIButtonBar
+  - UI7Kit/UI7Button (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7BarButtonItem
+    - UI7Kit/UI7Font
+    - UI7Kit/UI7View
+  - UI7Kit/UI7Color (0.9.20):
+    - FoundationExtension/UIKitExtension (~> 0.48)
+    - UIKitResources/UIAccessoryButton
+  - UI7Kit/UI7Font (0.9.20):
+    - UI7Kit/Core
+  - UI7Kit/UI7NavigationBar (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7BarButtonItem
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7Font
+  - UI7Kit/UI7NavigationController (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7NavigationBar
+    - UI7Kit/UI7Toolbar
+  - UI7Kit/UI7PickerView (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7Font
+    - UI7Kit/UI7TableView
+    - UI7Kit/UI7TableViewCell
+    - UI7Kit/UI7View
+  - UI7Kit/UI7PopoverController (0.9.20):
+    - GIKPopoverBackgroundView/Core
+    - UI7Kit/Core
+  - UI7Kit/UI7ProgressView (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7View
+  - UI7Kit/UI7SearchBar (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+  - UI7Kit/UI7SegmentedControl (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7Font
+    - UI7Kit/UI7View
+  - UI7Kit/UI7Slider (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7View
+  - UI7Kit/UI7Stepper (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7View
+  - UI7Kit/UI7Switch/SevenSwitch (0.9.20):
+    - SevenSwitch (~> 1.3.0)
+    - UI7Kit/Core
+  - UI7Kit/UI7TabBar (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7Font
+    - UI7Kit/UI7View
+  - UI7Kit/UI7TabBarController (0.9.20):
+    - UI7Kit/Core
+  - UI7Kit/UI7TabBarItem (0.9.20):
+    - UI7Kit/Core
+    - UIKitResources/UITabBar
+  - UI7Kit/UI7TableView (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7Font
+    - UI7Kit/UI7View
+  - UI7Kit/UI7TableViewCell (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7Font
+    - UI7Kit/UI7View
+  - UI7Kit/UI7TextField (0.9.20):
+    - UI7Kit/Core
+  - UI7Kit/UI7Toolbar (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+  - UI7Kit/UI7View (0.9.20):
+    - UI7Kit/Core
+  - UI7Kit/UI7ViewController (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7BarButtonItem
+    - UI7Kit/UI7NavigationBar
+  - UI7Kit/UI7Window (0.9.20):
+    - UI7Kit/Core
+    - UI7Kit/UI7View
+  - UIKitResources/UIAccessoryButton (7.0)
+  - UIKitResources/UIButtonBar (7.0)
+  - UIKitResources/UITabBar (7.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 1.3.4)
+  - ASIHTTPRequest (~> 1.8.2)
+  - BlocksKit (~> 2.2.3)
+  - FMDB (~> 2.3)
+  - IQKeyboardManager
+  - JBChartView (~> 2.7.3)
+  - LBBlurredImage
+  - MBProgressHUD (~> 0.8)
+  - SDWebImage (~> 3.7.1)
+  - UI7Kit (~> 0.9.18)
+
+SPEC CHECKSUMS:
+  AFNetworking: 80c4e0652b08eb34e25b9c0ff3c82556fe5967b4
+  ASIHTTPRequest: 2c8335b49410c0e2ad42829c438e74d454b77590
+  BlocksKit: 4439e7f30a9f90743462ca63545a15c1f4304cef
+  cdebug: 0404c00c53512b97358e13340b59dd465e4389ac
+  FMDB: 0b2fa25e5264ef177973c0cb8c02c711107979aa
+  FoundationExtension: 4ce5155eef84a715bd6180d9ac4759dad4eccee4
+  GIKPopoverBackgroundView: 459aef9b0a17d10b831b1714f2d686e72bbcc63c
+  IQKeyboardManager: 167388b27d0194abc50b2ffc3cc16b881a8227df
+  JBChartView: 4a8d9aee97c4fcb27933a784739b78b1fff6690e
+  LBBlurredImage: 30cc42be977bbcece286d26d2d9c08b8be7f05e8
+  MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
+  Reachability: 1ef8adf5c4e3d362f96515d4278f68dad3c26930
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  SevenSwitch: 70af67d75bc2e477d45a984cf1f3123564b04eee
+  UI7Kit: b541aa741c2bd449c23c4d66059ed79e10e8e7d8
+  UIKitResources: 834daec56f3546164cef79034ed9efc3bf6d2512
+
+COCOAPODS: 0.35.0

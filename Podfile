@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+
+pod 'AFNetworking', '~> 1.3.4'
+pod 'ASIHTTPRequest', '~> 1.8.2'
+pod 'MBProgressHUD', '~> 0.8'
+pod 'BlocksKit', '~> 2.2.3'
+pod 'FMDB', '~> 2.3'
+pod 'UI7Kit', '~> 0.9.18'
+pod 'SDWebImage', '~> 3.7.1'
+pod 'JBChartView', '~> 2.7.3'
+pod 'IQKeyboardManager'
+pod 'LBBlurredImage'
+#pod 'ImagePlayerView'
